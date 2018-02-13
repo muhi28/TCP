@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/aau_http_lsg -n .:../src $*
+# for shared lib, use: opp_run -l ../src/aau_http_lsg -n .:../src $*
